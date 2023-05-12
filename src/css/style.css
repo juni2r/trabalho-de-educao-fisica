@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,800&family=Shantell+Sans:ital,wght@1,800&display=swap');
 
+header{
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+
 header h1{
 
     font-size: 25px;
         
 }
 
-header{
-
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
-    margin-bottom: 200px;
-    
-}
 
 header  .logo img{
 
@@ -43,7 +44,7 @@ header ul li a{
 header ul li a:hover{
 
     color: white;
-    background-color: greenyellow;
+    background-color: rgba(49, 255, 8, 0.83);
     padding: 15px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
     border-radius: 15px;
@@ -106,3 +107,19 @@ img{
     
 
 }
+
+footer{
+
+    font-weight: 800;
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+
+
+}
+
